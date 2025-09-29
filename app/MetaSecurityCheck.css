@@ -1,0 +1,45 @@
+/* MetaSecurityCheck.css */
+.meta-security-container {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.captcha-box {
+  position: relative;
+  text-align: center;
+  max-width: 350px;
+  font-size: 12px;
+  color: #1c1e21;
+}
+
+.logo {
+  position: absolute;
+  bottom: 300px;
+  left: 10px;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.terms {
+  font-size: 11px;
+  color: #606770;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.terms a {
+  color: #385898;
+  text-decoration: none;
+}
+.terms a:hover {
+  text-decoration: underline;
+}
